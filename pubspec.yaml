@@ -1,0 +1,51 @@
+name: starter
+description: A new Flutter project.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.4
+
+  # GetX
+  get: ^4.6.1
+  get_storage: ^2.0.3
+
+  # Network
+  dio: ^4.0.4
+
+  # UI
+  shimmer: ^2.0.0
+
+  # Firebase
+  firebase_core: ^1.13.1
+  firebase_analytics: ^9.1.2
+  firebase_crashlytics: ^2.5.3
+
+  # Information
+  package_info_plus: ^1.4.0
+
+  #Utilities
+  url_launcher: ^6.0.20
+
+  flutter_screenutil: ^5.0.4
+  internet_connection_checker: ^0.0.1+3
+  font_awesome_flutter: ^9.2.0
+  cached_network_image: ^3.2.0
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+
+  
